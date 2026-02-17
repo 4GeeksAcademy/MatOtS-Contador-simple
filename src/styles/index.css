@@ -9,3 +9,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    padding: 4rem;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 4rem;
+    margin-top: 2rem;
+}
+
+.number {
+    background-color: rgba(75, 75, 75, 0.352);
+    padding: 4rem;
+    color: white;
+    font-size: 4rem;
+    border-radius: 4rem;
+    border: 2px solid white;
+    min-height: 228px
+}
